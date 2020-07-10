@@ -1,0 +1,495 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 992px) {
+    .container {
+        width: 950px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+    }
+}
+
+body {
+    background-color: #fafafa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container  {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.padding {
+    padding: 70px;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+
+.start {
+    background-image: linear-gradient(to right, #453831, #18171a);
+}
+
+.logo {
+    padding-left: 2px;
+    width: 50%;
+    float: left;
+}
+
+.logolink {
+    color: #f1cdb3;
+    text-decoration: none;
+    outline: none;
+}
+
+.logoname {
+    
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 1.13px;
+    text-transform: capitalize;
+}
+
+.logodescription {
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 1.3px;
+}
+
+.menu {
+    list-style: none;
+    float: right;
+    padding-top: 10px;
+}
+
+.menuItem {
+    float: left;
+    margin-left: 38px;
+}
+
+.menu:last-child {
+    margin-left: Opx;
+}
+
+.menuItem:focus {
+    outline: none;
+}
+
+.menuItemLink {
+    text-decoration: none;
+    color: #cdcdcd;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-transform: capitalize;
+}
+
+.menuItemLink:active, .menuItemLink:hover {
+    border-bottom: 3px #f1cdb3 solid;
+    padding-bottom: 5px;
+}
+
+.mottoMission {
+    float: left;
+    width: 40%;
+}
+.motto {
+    color: #ffffff;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 2.64px;
+    margin-top: 250px;
+    margin-bottom: 45px;
+    width: 100%;
+    text-transform: capitalize;
+}
+
+.mission {
+    color: #cdcdcd;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    width: 100%;
+}
+
+.button1 {
+    border-radius: 26px;
+    background-color: #f1cdb3;
+    color: #292929;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 1.02px;
+    text-align: center;
+    margin-top: 45px;
+    border: 2px solid #f1cdb3;
+    width: 50%;
+    text-transform: capitalize;
+}
+
+.button1:active {
+    transform: translateY(1px);
+    background-color: #fafafa;
+}
+
+.button1:hover, .button1:focus {
+    background-color: #fafafa;
+}
+
+.dogImageHeader {
+    width: 584px;
+    float: right;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: -70px;
+    margin-bottom: -70px;
+    margin-top: 44px;
+}
+
+.AboutShelter video {
+    opacity: 30%;
+    object-fit: cover;
+    object-position: center center;
+    height: auto;
+    width: 100%;
+}
+
+.AboutShelter {
+    position: relative;
+}
+.aboutShelterBlock {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+}
+
+.aboutShelterInfo {
+    padding-top: 70px;
+    padding-right: 70px;
+}
+
+.aboutShelterHeader {
+    color: #4c4c4c;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2.1px;
+    margin-bottom: 35px;
+    text-transform: capitalize;
+}
+
+.aboutShelterText {
+    color: #4c4c4c;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.ourPets {
+    background-color: #f6f6f6;
+}
+
+.petsChoice {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.arrow {
+    width: 50px;
+    height: 50px;
+    border: 2px solid #f1cdb3;
+    border-radius: 45px;
+    display: flex;
+    justify-content: center;   
+    margin-top: 195px;
+    align-items: center;
+}
+
+.arrowImage {
+    object-fit: none;
+}
+
+.left {
+    margin-right: 80px;
+}
+
+.right {
+    margin-left: 80px;
+}
+
+.blockHeader {
+    color: #545454;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2.1px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.petsChoice {
+    margin-top: 65px;
+}
+
+.ourPetsLot {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: #fafafa;
+    width: 226px;
+}
+
+.cat {
+    margin-top: 44px;
+}
+
+.Jen {
+    margin-top: 7px;
+}
+.petName {
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.button {
+    border-radius: 26px;
+    border: 2px solid #f1cdb3;
+    background-color: #fafafa;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 1.02px;
+    text-align: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+}
+
+.ourPetsLot:hover, .ourPetsLot:focus {
+    box-shadow: 0 2px 30px 5px rgba(13, 13, 13, 0.04);
+}
+
+.buttonLink {
+    text-decoration: none;
+    color: #292929;
+}
+
+.button:active {
+    transform: translateY(1px);
+    background-color: #f1cdb3;
+}
+
+.button:focus, .button:hover {
+    background-color: #f1cdb3;
+}
+
+.arrow:active {
+    transform: translateY(1px);
+    background-color: #f1cdb3;
+}
+
+.arrow:focus, .arrow:hover {
+    background-color: #f1cdb3;
+}
+
+.buttonPets {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 65px;
+    line-height: 40px;
+}
+
+.whyToAdoptVideo {
+    object-fit: fill;
+    object-position: center;
+    margin-top: 50px;
+    outline: none;
+    width: 80%;
+    height: auto;
+}
+.videoWhy {
+    text-align: center;
+}
+
+.help {
+    background-color: #f6f6f6;
+}
+
+.helpContainer {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.howToHelp {
+    width: 20%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+.helpIcon {
+    width: 50%;
+    object-position: center;
+    object-fit: cover;
+}
+.howToHelpText {
+    color: #545454;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.dogDonation {
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.BankName {
+    color: #545454;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.9px;
+    margin-top: 35px;
+    float: left;
+    width: 40%;
+}
+
+.donation .button1 {
+    float: left;
+    width: 40%;
+    margin-top: 10px;
+}
+
+.legalInfo {
+    float: left;
+    width: 40%;
+    color: #b2b2b2;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    margin-top: 30px;
+}
+
+.planVisit {
+    background-color: #f6f6f6;
+}
+
+.planVisitForm {
+    float: left;
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 40%;
+}
+
+.planVisitForm input {
+    display: block;
+}
+
+#Name,
+#LastName,
+#Email,
+#Comment {
+    width: 80%;
+}
+
+#Name,
+#LastName,
+#Email,
+#VisitDate,
+#VisitTime,
+#Comment  {
+    line-height: 22px;
+    font-size: 16px;
+    color: #b2b2b2;
+    margin-bottom: 5px;
+    background-color: #f7f7f7;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+}
+
+.chooseTimeDate {
+    color: #545454;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+}
+
+#Submit {
+    line-height: 22px;
+    font-size: 16px;
+    color: #545454;
+    width: 150px;
+    border: 1px solid #b2b2b2;
+    border-radius: 5px;
+}
+
+.planImage {
+    margin-top: 30px;
+}
+
+footer {
+    background-image: linear-gradient(to right, #453831, #18171a);
+    padding:70px 70px 0px 70px;
+}
+
+.footerImage {
+    margin-left: 100px;
+    float: left;
+    margin-right: 25px;
+}
+
+.footerContacts {
+    width: 25%;
+    float: left;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.FooterHeading {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 2.1px;
+    margin-bottom: 35px;
+}
+
+.contactsImage {
+    width: 10%;
+}
+
+.contactsText {
+    color: #f1cdb3;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1.2px;
+    margin-bottom: 15px;
+    line-height: 20px;
+}
+
