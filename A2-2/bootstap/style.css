@@ -1,0 +1,386 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'ArialMT';
+    font-style: normal;
+    font-weight: normal;
+    src: url('fonts/arialmt.ttf');
+    }
+
+@font-face {
+    font-family: Socialico;
+    src: url("fonts/Socialico/Socialico.ttf");
+    font-weight: normal;
+    font-style:normal;
+}
+
+body {
+    font-family: 'ArialMT';
+    background-color: #ffffff;
+
+}
+
+.container {
+    margin: 0 auto;
+}
+
+.padding {
+    padding: 50px;
+}
+
+.col-md-6 {
+    padding-left: 0;
+}
+
+.productPage {
+    background-color: #445162;
+}
+
+.productName {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    margin-bottom: 28px;
+}
+
+.productListDescription {
+    list-style: inside url("images/check_icon.png");
+}
+
+.productListItem {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 36px;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.3);
+}
+
+.productImage {
+    width: 100%;
+    height: 268px;
+}
+
+.productInfo {
+    background-color: #ffffff;
+}
+
+.sectionHeading {
+    color: #445161;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 36px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header.productAbout .sectionHeading {
+    text-align: left;
+}
+
+.productAboutDescription {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-bottom: 20px;
+}
+.productInfoImage {
+    width: 100%;
+}
+.productPluses {
+    background-color: #f5f5f5;
+}
+
+
+.productPlusesListItem {
+    background-image: url("images/listimage.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 35px;
+}
+
+.screenshots {
+    background-color: #ffffff;
+}
+
+.screnshotsDescription {
+    display: inline-block;
+    float: left;
+}
+
+.screenshotItself {
+    display: inline-block;
+    float: left;
+    padding-top: 36px;
+    width: 30%;
+}
+
+.screenshotInfo {
+    display: inline-block;
+    width: 70%;
+    padding-left: 10px;
+}
+.screenshotName {
+    color: #445161;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-top: 34px;
+
+}
+
+.screenshotImageDescription {
+    color: #333333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.reviews {
+    background-color: #f5f5f5;
+}
+
+.reviewsDisplayed {
+    padding-bottom: 24px;
+}
+
+.reviewsImage {
+    display: inline-block;
+    float: left;
+    padding-right: 15px;
+    width: 20%;
+}
+
+.reviewText {
+    width: 80%;
+    background-image: url(images/bg_review.svg);
+    float: left;
+    height: 121px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+.reviewItself {
+    vertical-align: middle;
+    color: #333333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    padding-top:10px;
+}
+
+.reviewAuthor {
+    color: #989898;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 25px;
+}
+
+.buyItNow {
+    background-color: #ffffff;
+}
+
+.buyItNowContainer {
+    display: flex;
+    margin: 0 auto;
+    width: 90%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+@media screen and (min-width:768px) {
+    .buyItNowContainer {
+        display: block;
+        margin: 0 auto;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .buyItNowContainer {
+        display: flex;
+        margin: 0 auto;
+        width: 90%;
+        justify-content: space-between;
+        align-items: flex-end;
+        }
+}
+
+.buyItNowPlan {
+    background-color:#445162;
+    width: 300px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width:768px) {
+    .buyItNowPlan {
+        margin: 0 auto;
+    }
+}
+
+.buyItNowSectionHeading {
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 15px;
+    margin-bottom: 15px;
+}
+
+.buyItNowprice {
+    height: 71px;
+    border: 2px solid #445162;
+    background-color: #ffffff;
+    color: #445162;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 71px;
+    text-align: center;
+}
+
+.buyItNowList {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+.buyItNowListItem {
+    width: 242px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.buyButton  {
+    height: 40px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    color: #445161;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 40px;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin: 20px;
+}
+
+.contacts {
+    background-color: #445162;
+}
+
+.contacts .sectionHeading {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.contactsForm {
+    padding-left: 200px;
+    float: left;
+}
+
+@media screen and (min-width:768px) {
+    .contactsForm {
+        padding-left: 0px;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .contactsForm {
+        padding-left: 100px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .contactsForm {
+        padding-left: 200px;
+    }
+}
+
+.contactsFormField {
+    color: #445162;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 40px;
+    padding-left: 10px;
+    background-color: #ffffff;
+    display: block;
+    width: 500px;
+    font-family: 'ArialMT';
+    margin-bottom: 21px;
+    border-radius: 5px;
+}
+
+#Name #Email {
+    height: 40px;
+}
+
+#Message {
+    height: 170px;
+}
+
+#SubmitButton {
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    color: #445162;
+    font-family: 'ArialMT';
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 24px;
+    text-transform: uppercase;
+    margin-left: 200px;
+}
+
+.socialmedia {
+    margin-left: 45px;
+    float: left;
+}
+
+.socialMediaLink {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.socialMediaLink img {
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.socialMediaIcons {
+    width: 300px;
+    margin-top: 30px;
+}
+
+.socialMediaLinkIcon {
+    color: #ffffff;
+    font-family: Socialico;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.footerInfo {
+    height: 26px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 22px;
+    font-size: 16px;
+}
